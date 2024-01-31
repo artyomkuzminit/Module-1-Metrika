@@ -1,0 +1,175 @@
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  background: #f5f5f5;
+}
+
+section {
+  margin-top: 150px;
+}
+
+section:first-child {
+  margin-top: 0;
+}
+
+.section-black {
+  background-color: #121212;
+  margin-top: 150px;
+}
+
+.section-black h2 {
+  color: #ffffff;
+  padding-top: 151px;
+}
+
+.section-black h3 {
+  color: #ffffff;
+  padding-left: 128px;
+  padding-top: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1400px;
+  background: #fff;
+}
+
+.interior {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 125px;
+  width: 1150px;
+  height: 500px;
+  background-image: url("resources/interior.png");
+}
+
+.image-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+}
+
+h1 {
+  margin-left: 125px;
+  width: 956px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  color: #121212;
+}
+
+h2 {
+  margin-left: 125px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  color: #121212;
+}
+
+p.description {
+  margin-top: 30px;
+  margin-left: 125px;
+  width: 1048px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.35px;
+  color: #121212;
+}
+
+a.btn {
+  margin-top: 30px;
+  margin-left: 125px;
+  display: inline-flex;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background-color: #ad1818;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.projects {
+  margin-top: 30px;
+  margin-left: 125px;
+}
+
+.projects .project {
+  margin-top: 90px;
+}
+
+.projects :first-child {
+  margin-top: 0;
+}
+
+.project__image {
+  margin-bottom: 15px;
+}
+
+.project__title {
+  margin-bottom: 15px;
+}
+
+.project__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #ad1818;
+  text-decoration: none;
+}
+
+.fullwidthbtn {
+  display: block;
+  margin-top: 90px;
+  padding-top: 56px;
+  width: 1150px;
+  height: 153px;
+  border-radius: 5px;
+  border: 1px solid #ad1818;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  text-align: center;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.fullwidthbtn:hover {
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
+.services {
+  margin-top: 34px;
+}
+
+.services .service {
+  margin-top: 60px;
+}
+
+.services:first-child {
+  margin-top: 0;
+}
+
+.service__image {
+  padding-left: 125px;
+}
